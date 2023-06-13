@@ -1,0 +1,65 @@
+.modal-record {
+    position: absolute;
+    left: 50%;
+    top: -100%;
+    background-color: rgb(8, 94, 144);
+    z-index: 5;
+    width: 480px;
+    border-radius: 15px;
+    border: 2px solid black;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.modal-record--active {
+    top: 50%;
+}
+
+.modal-record__title {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 120%;
+    text-align: center;
+    margin: 15px 0 0;
+}
+
+.modal-record__list {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.modal-record__close {
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    margin-top: 0;
+    padding: 7px 20px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 2px rgba(255,255,255,1);
+    background-color: #ccc;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #202020 #1a1a1a #111;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(top,#efefef,#777);
+    background-image: -moz-linear-gradient(top,#efefef,#777);
+    background-image: -o-linear-gradient(top,#efefef,#777);
+    background-image: linear-gradient(to bottom,#efefef,#777);
+    box-shadow: inset 0 1px rgba(255,255,255,0.09), 0px 1px 1px rgba(0,0,0,0.2);
+}
+
+.modal-record__close:hover {
+    background-image: linear-gradient(to bottom,#cccbcb,#777);
+    box-shadow: inset 0 3px rgba(255,255,255,0.09), 0px 3px 3px rgba(0,0,0,0.2);
+}
+
+thead tr {
+    border: 2px solid black;
+    background-color: azure;
+}

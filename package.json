@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "description": "Minesweeper",
+  "private": true,
+  "name": "minesweeper",
+ 
+
+  "scripts": {
+    "start": "rss-scripts start",
+    "build": "rss-scripts build"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "rss-scripts": "^0.2.4"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
